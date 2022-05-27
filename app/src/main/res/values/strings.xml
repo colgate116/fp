@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My_finances</string>
+    <string name="income">Доход</string>
+    <string name="expenditure">Расход</string>
+    <string name="tools">Средства</string>
+    <string name="settings">Настройки</string>
+    <string name="statistic">Статистика</string>
+    <string name="cash">Наличные</string>
+    <string name="add_new_card">Добавить счет</string>
+    <string name="account_inside">Счёт:</string>
+    <string name="annotation">Описание</string>
+    <string name="noAnnotation">Описания пока нет</string>
+    <string name="valuta">валюта:</string>
+    <string name="rubble">рубль</string>
+    <string name="add_sum">Введите сумму</string>
+    <string name="add_annotation">Введите примечание</string>
+    <string name="card1">card 1</string>
+    <string name="name_of_card">Название</string>
+    <string name="your_acc">Ваш счёт</string>
+    <string name="create_acc">придумайте название</string>
+    <string name="save">Сохранить</string>
+    <string name="deleting">Хотите удалить информацию об этом элементе?</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+    <string name="add_income">Добавить доход</string>
+    <string name="add_expenditure">Добавить расход</string>
+</resources>

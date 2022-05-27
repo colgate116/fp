@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    android:layout_height="230dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="#EDE9E9"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/name_of_card"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:id="@+id/tv_name_of_card"
+        />
+
+    <EditText
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="0dp"
+        android:fontFamily="@font/calibri"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@+id/tv_name_of_card"
+        android:textSize="22sp"
+        android:hint="@string/create_acc"
+        android:id="@+id/ET_name_of_card"
+        android:background="#E4E4E4"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name_of_card"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/account_inside"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:id="@+id/acc_in_text"
+        />
+
+    <EditText
+        android:layout_width="0dp"
+        android:fontFamily="@font/calibri"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ET_name_of_card"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@+id/acc_in_text"
+        android:textSize="22sp"
+        android:hint="@string/your_acc"
+        android:id="@+id/ET_dialog_score"
+        android:background="#E4E4E4"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/acc_in_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/annotation"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/black"
+        android:id="@+id/ann_in"
+        android:fontFamily="@font/calibri"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/noAnnotation"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/ann_in"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#E4E4E4"
+        android:textSize="20sp"
+        android:fontFamily="@font/calibri"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/descr_dialog"
+        android:textColor="@color/black"
+        android:inputType="textLongMessage"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descr_dialog"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#00999E"
+        android:textColor="#EDE9E9"
+        android:id="@+id/dialog_save"
+        android:text="@string/save"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
